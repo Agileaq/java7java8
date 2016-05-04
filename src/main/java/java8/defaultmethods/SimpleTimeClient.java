@@ -41,8 +41,10 @@ public class SimpleTimeClient implements TimeClient {
     
     public static void main(String... args) {
         TimeClient myTimeClient = new SimpleTimeClient();
+
         System.out.println(myTimeClient.toString());
         System.out.println(myTimeClient.getZonedDateTime("Blah blah").toString());
-        myTimeClient.AAAAA();
+        String aaa = myTimeClient.AAAAA();
+        System.out.print(aaa + "   Testaaa");
     }
 }
