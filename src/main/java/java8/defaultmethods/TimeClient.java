@@ -29,5 +29,6 @@ public interface TimeClient {
     
     default String AAAAA(){
     	System.out.println("AAAAAAA");
+        return "AAA";
     }
 }
